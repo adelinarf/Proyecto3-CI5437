@@ -41,7 +41,7 @@ Las pruebas para los tableros anteriores pueden realizarse al correr el archivo
 
 	python main.py
 
-Los archivos search, utils y CSP contienen código proveniente de la librería AIMA y han sido modificados para solucionar Sudokus de todos los tamaños y además se incluye la librería multiprocessing de Python para el manejo de los casos en los que la corrida tiene un tiempo muy grande. Si la corrida dura más de 120 segundos, se termina la función. Esta modificación se realizó debido a que algunos algoritmos y heurísticas en conjunto tenían una duración superior a las 8 horas, con la librería multiprocessing se puede correr el programa en un menor tiempo, con los algoritmos y heurísticas que dan un resultado en un tiempo aceptable.
+Los archivos search, utils y CSP contienen código proveniente de la librería [AIMA](https://github.com/aimacode/aima-python) y han sido modificados para solucionar Sudokus de todos los tamaños y además se incluye la librería multiprocessing de Python para el manejo de los casos en los que la corrida tiene un tiempo muy grande. Si la corrida dura más de 120 segundos, se termina la función. Esta modificación se realizó debido a que algunos algoritmos y heurísticas en conjunto tenían una duración superior a las 8 horas, con la librería multiprocessing se puede correr el programa en un menor tiempo, con los algoritmos y heurísticas que dan un resultado en un tiempo aceptable.
 
 <img src="imgs/cmd.png" alt="cmd"/>
 
